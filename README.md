@@ -12,13 +12,13 @@ amazing [Dash App](http://kapeli.com/dash/) for Mac
 ```php
 /*DOCSET FILENAME*/
 /*MUST END WITH .docset !!!*/
-$config['docset_filename'] = 'laravel.docset';
+$config['docset_filename'] = 'myname.docset';
 
 /*DOCSET TITLE*/
-$config['docset_title'] = 'Laravel Documentation';
+$config['docset_title'] = 'My Documentation';
 
 /*DOCSET PRETTYNAME (SINGLE WORD)*/
-$config['docset_prettyname'] = 'laravel';
+$config['docset_prettyname'] = 'MyName';
 
 /*DOCSET INDEX PAGE*/
 $config['docset_index_page'] = 'index.html';
