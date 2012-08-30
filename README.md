@@ -9,7 +9,7 @@ amazing [Dash App](http://kapeli.com/dash/) for Mac
 3. Place an Icon (icon.png) into the <strong>icon_goes_here</strong> dir
 4. Now edit the <strong>docset.config.php<strong> file
 		
-		```PHP
+		´´´PHP
 		/*DOCSET FILENAME*/
 		/*MUST END WITH .docset !!!*/
 		$config['docset_filename'] = 'laravel.docset';
@@ -25,4 +25,4 @@ amazing [Dash App](http://kapeli.com/dash/) for Mac
 		
 		/*DOCSET DOCSEUTIL PATH*/
 		$config['docset_docseutil_path'] = '/Applications/Xcode.app/Contents/Developer/usr/bin/docsetutil';
-		```
+		´´´
