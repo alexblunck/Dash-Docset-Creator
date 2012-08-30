@@ -8,6 +8,7 @@ amazing [Dash App](http://kapeli.com/dash/) for Mac
 2. Place all HTML files into the <strong>files_go_here</strong> dir
 3. Place an Icon (icon.png) into the <strong>icon_goes_here</strong> dir
 4. Now edit the <strong>docset.config.php<strong> file
+
 ```php
 /*DOCSET FILENAME*/
 /*MUST END WITH .docset !!!*/
@@ -25,5 +26,6 @@ $config['docset_index_page'] = 'index.html';
 /*DOCSET DOCSEUTIL PATH*/
 $config['docset_docseutil_path'] = '/Applications/Xcode.app/Contents/Developer/usr/bin/docsetutil';
 ```
+
 5. Make sure you set the correct path to Xcode 's docseutil utility!
 
