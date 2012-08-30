@@ -28,6 +28,7 @@ $config['docset_docseutil_path'] = '/Applications/Xcode.app/Contents/Developer/u
 ```
 
 ####Now from the command line (Terminal) run:
+Note: run in project directory
 ```sh
 php create-docset.php
 ```
