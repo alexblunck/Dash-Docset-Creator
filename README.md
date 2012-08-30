@@ -27,5 +27,12 @@ $config['docset_index_page'] = 'index.html';
 $config['docset_docseutil_path'] = '/Applications/Xcode.app/Contents/Developer/usr/bin/docsetutil';
 ```
 
-5. Make sure you set the correct path to Xcode 's docseutil utility!
+####Now from the command line (Terminal) run:
+```sh
+php create-docset.php
+```
+
+#####The .docset should now show up in the "output" folder!
+
+
 
